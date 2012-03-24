@@ -1,0 +1,31 @@
+@CHARSET "UTF-8";
+
+.pagination {
+	list-style: none;
+	padding: 0; margin: 0;
+	overflow: auto;
+}
+.pagination li {
+	float: left;
+	margin-right: 2px;
+}
+.pagination li a {
+	display: block;
+	padding: 1px 5px;
+	border: solid 1px #c0002d;
+	color: #c0002d;
+	text-decoration: none;
+}
+.pagination li a:hover {
+	background: #c0002d;
+	color: white;
+	text-decoration: none;
+}
+.pagination .disabled {
+	border: solid 1px black;
+	padding: 1px 5px;
+}
+.pagination .current {
+	background: #FF003B;
+	padding: 2px 5px 1px 5px;
+}

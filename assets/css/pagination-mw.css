@@ -1,0 +1,70 @@
+@CHARSET "UTF-8";
+
+
+.clear { clear:both; }
+
+
+/* PAGINATION
+   style similar to one found on http://www.movieweb.com
+--------------------------------------------------------------------------*/
+
+.pagination {
+	margin:5px 0 5px 0;
+	padding:0;
+	font-size:12px;
+}
+.pagination ul {
+	list-style-type:none;
+}
+.pagination li {
+	float:left;
+	display:inline;
+	margin:0 0 0 3px;
+	display: block;
+}
+.pagination li a {
+	color:#fff;
+	border:1px solid #BABEBF;
+	background:#BABEBF;
+	text-decoration:none;
+	float:left;
+}
+.pagination li a:hover {
+	color:#fff;
+	border:1px solid #716f73;
+	background:#716f73;
+}
+.pagination li.disabled {
+	color: #fff;
+	border:1px solid #ddd;
+	background:#ddd;
+}
+.pagination li.current {
+	color: #fff;
+	border:1px solid #414042;
+	background: #414042;
+}
+.pagination li a, .pagination li.disabled, .pagination li.current {
+	padding:6px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+}
+
+/*
+HTML
+
+<div class="pagination">
+<ul>
+<li><a href="/movie/superhero-movie?pg=1">&laquo; previous</a></li>
+<li ><a href="/movie/superhero-movie?pg=1">1</a></li>
+<li class="current">2</li>
+<li class="disabled">next &raquo;</li>
+<li><a href="/movie/superhero-movie?pg=1">|&lt;</a></li>
+<li><a href="/movie/superhero-movie?pg=2">&gt;|</a></li>
+</ul>
+</div>
+
+<div class="clear"/>
+
+*/
