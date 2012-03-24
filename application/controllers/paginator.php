@@ -11,13 +11,6 @@ class Paginator extends CI_Controller
 		
 		// Could do this in config/autoload.php also.
 		$this->load->helper('url');
-		/*
-		 * Load library in order to be able
-		 * to instantiate class Iceo_paginator_base.
-		 * Other way is to autoload it in config/autoload.php
-		 * like we did for this example.
-		 */
-		//$this->load->library('paginator/iceo_paginator_base');
 		
 		/*
 		 * Just to do it in different way, we will load 
